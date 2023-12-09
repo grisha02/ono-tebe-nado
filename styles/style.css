@@ -53,7 +53,6 @@ html {
 
 .cover {
   position: relative;
-  height: 763px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
 }
@@ -71,7 +70,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 165px 50px 147px 50px;
+  padding: 165px 50px 0 50px;
   color: #fff;
   font-family: Raleway;
   font-weight: 700;
@@ -82,6 +81,7 @@ html {
 
 .aligned-text {
   line-height: 1.15;
+  text-align: left;
 }
 
 .aligned-text_center {
@@ -90,36 +90,43 @@ html {
 }
 
 .aligned-text_right {
-  margin-right: -27px;
   line-height: 1.0;
   text-align: right;
+}
+
+.letter-spacing-text_right {
+  letter-spacing: 30px;
 }
 
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
 
+.no-letter-spacing {
+  letter-spacing: 0px;
+}
+
 .cover__description {
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 0 50px 62px 422px;
+  padding: 135px 50px 50px 422px;
 }
 
 .cover__description-text {
+  padding-top: 12px;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
-  line-height: 1.27;
+  line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  word-spacing: 17.5px;
+  word-spacing: 17px;
 }
 
 .bet-button {
   width: 257px;
   height: 52px;
-  margin-top: -12px;
   margin-left: 78px;
   border: 1px solid #fff;
   color: #fff;
@@ -130,7 +137,7 @@ html {
 }
 
 .lots {
-  padding: 174px 50px 0 50px;
+  padding: 180px 50px 0 50px;
 }
 
 .lots__heading {
@@ -272,7 +279,7 @@ html {
   text-underline-offset: 4px;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   height: 48px;
 }
 
