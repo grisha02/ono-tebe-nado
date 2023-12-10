@@ -216,7 +216,7 @@ html {
 }
 
 .about {
-  padding: 183px 50px 0 50px;
+  padding: 181px 50px 0 50px;
 }
 
 .about__column {
@@ -253,6 +253,7 @@ html {
 }
 
 .about__text-indent {
+  padding-top: 5px;
   padding-bottom: 25px;
 }
 
